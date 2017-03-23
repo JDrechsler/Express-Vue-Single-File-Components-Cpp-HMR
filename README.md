@@ -1,4 +1,4 @@
-# Express-Vue-single-file-components-Cpp-HMR
+# Express-Vue-Single-File-Components-Cpp-HMR
 
 I will add a better readme later. For now it is a working template which is using the following:
 
