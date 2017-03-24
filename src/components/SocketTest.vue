@@ -10,7 +10,7 @@
 	import Vue from 'vue'
 	import Component from 'vue-class-component'
 
-	const io = require('./../js/socket.io.min.js')
+	const io = require('socket.io-client')
 	const socket = io('localhost:8080')
 
 	@Component({
