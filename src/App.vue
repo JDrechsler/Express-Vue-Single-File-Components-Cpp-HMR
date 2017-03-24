@@ -13,6 +13,12 @@
 				<SocketTest></SocketTest>
 			</div>
 		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<Music></Music>
+			</div>
+		</div>
 	</div>
 </template>
 
@@ -21,11 +27,13 @@
 	import Component from 'vue-class-component'
 	import ManageProducts from './components/ManageProducts.vue'
 	import SocketTest from './components/SocketTest.vue'
+	import Music from './components/Music.vue'
 
 	@Component({
 		components: {
 			ManageProducts,
-			SocketTest
+			SocketTest,
+			Music
 		}
 	})
 
@@ -43,4 +51,5 @@
 		color: #2c3e50;
 		background-color: mintcream;
 	}
+
 </style>
